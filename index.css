@@ -1,0 +1,360 @@
+
+ @media (max-width:500px)
+ 
+ {
+ 
+ 
+ body{background-color: white;
+
+ height : auto;
+ } 
+ 
+ .jumia_logo{max-width:100%;
+
+width : 96.7vw;
+
+height : 20vh ;
+margin-left:1.5%;
+border :2px  ;
+}
+
+.jumia_wrap {background-color:orange;
+
+width:99.8vw;
+height :23vh;
+border:1px solid orange ;
+margin-left:-2.3%;
+margin-top : -3%;
+position: relative;}
+
+
+
+.main_body {border:10px solid black ;
+height:auto;
+position :relative ;
+margin-top:-1.5vh;
+margin-left :-3.4vw;
+right:-0.9vw;
+border-radius:7px;
+max-width:100vw ;
+background-color : white;
+z-index :2;
+
+
+width :95.0vw;
+
+}
+
+
+
+
+
+h1{text-align:center;
+color:#014;
+font-size:37px;}
+
+h2{text-align:center ;
+color :#b00 ;
+font-size :10vw;} 
+
+
+p.margin{margin :5%;
+font-size:18px;
+}
+
+.fixed{background-color:red;
+width:70vw;
+height:55vh;
+position: fixed;
+z-index:6;
+}
+
+p a {text-decoration:none;
+color :blue;}
+
+.inputText{margin:5%;
+font-size:4.9vw;}
+
+.display{display:block;}
+.boxWidth {padding:5px;
+height:7vh;
+width:80vw;
+border:1px solid grey;
+border-radius:4px;}
+
+
+.selboxWidth{padding:5px;
+height:10vh;
+width:84vw;
+border:1px solid grey;
+border-radius:4px;
+font-size:17px;}
+
+.submitbtn{padding:5px;
+height:8vh;
+width:84.4vw;
+border:0px solid grey;
+border-radius:4px;
+background-color:orange;
+font-size:18px;
+
+
+}
+
+.asterik{color:red;}
+
+.span{font-size:70%;
+font-family : "Times New Roman"
+}
+
+
+
+.footer {background-color;
+max-width:100vw;
+border:2px solid grey;
+margin-left: -6vw;
+position: fixed;
+z-index:3;
+height:10%;
+margin:0px;
+width:100%;
+bottom :-40px;
+left:0px;
+}
+
+.return1{
+
+color:#b00;
+border:1px solid #aaa;
+border-radius:3px;
+padding:13px;}
+
+
+
+
+.boxWidth2 {padding:5px;
+height:15vh;
+width:80vw;
+border:1px solid grey;
+border-radius:4px;}
+
+.parent2, .parent1, .parent3, .parent4, .parent5, .parent6, .parent7{
+display:none
+
+}
+
+.RD1{
+font-size:15px;
+font-family:"Times New Roman"
+
+}
+
+.RD2 {
+font-family:"Times New Roman";
+font-size :18px
+}
+
+.btnDiv{
+border-radius:3px;
+width:68vw;
+padding:0px;
+}
+
+.btnDivBd{
+box-shadow:0.5px 0.5px 8px grey;
+}
+
+.btn1 {
+background-color:#b00;
+padding:8px;
+border:0px solid grey;
+border-radius:3px;
+color:white;
+font-size :17px;
+width:24vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:500px)
+
+{
+
+body{background-color: white;
+
+ height : auto;
+ } 
+ 
+ .jumia_logo{max-width:100%;
+
+width : 96.7vw;
+
+height : 20vh ;
+margin-left:1.5%;
+border :2px  ;
+}
+
+
+.jumia_wrap {background-color:orange;
+
+width:100vw;
+height :23vh;
+border:1px solid orange ;
+margin-left:-0.82%;
+margin-top : -3%;
+position: relative;}
+
+
+
+
+
+.main_body {border:10px solid black ;
+height:auto;
+position :relative ;
+margin-top:-1vh;
+margin-left :-1.0vw;
+right:0vw;
+border-radius:7px;
+max-width:100vw ;
+background-color : white;
+z-index :2;
+
+
+width :98.5vw;
+}
+
+
+
+
+h1{text-align:center;
+color:#014;
+font-size:300%;}
+
+h2{text-align:center ;
+color :#b00 ;
+font-size:8vw;
+} 
+
+
+
+
+p.margin{margin :5%;
+font-size:150%;
+}
+
+.fixed{background-color:red;
+width:70vw;
+height:55vh;
+position: fixed;
+z-index:6;
+}
+
+p a {text-decoration:none;
+color :blue;}
+
+.inputText{margin:5%;
+}
+
+.display{display:block;}
+.boxWidth {padding:5px;
+height:7vh;
+width:80vw;
+border:1px solid grey;
+
+border-radius:4px;}
+
+.selboxWidth{padding:5px;
+height:10vh;
+width:84vw;
+border:1px solid grey;
+border-radius:4px;
+font-size:120%;}
+
+.submitbtn{padding:5px;
+height:8vh;
+width:84.4vw;
+border:0px solid grey;
+border-radius:4px;
+background-color:orange;
+font-size:120%;
+font-weight:bold;
+
+
+}
+
+.asterik{color:red;}
+
+.span{font-size:60%;
+}
+
+
+.footer {background-color;
+max-width:100vw;
+border:2px solid grey;
+margin-left: -6vw;
+position: fixed;
+z-index:3;
+height:10% ;
+margin:0px;
+width:100%;
+bottom :-40px;
+left:0px;
+}
+
+
+.boxWidth2 {padding:5px;
+height:15vh;
+width:80vw;
+border:1px solid grey;
+border-radius:4px;}
+
+.parent2, .parent1, .parent3, .parent4, .parent5, .parent6, .parent7{
+display:none
+
+}
+
+.RD1{
+font-size:15px;
+font-family:"Times New Roman"
+
+}
+
+.RD2 {
+font-family:"Times New Roman";
+font-size :18px
+}
+
+.btnDiv{
+border-radius:3px;
+width:68vw;
+padding:0px;
+}
+
+.btnDivBd{
+box-shadow:0.5px 0.5px 8px grey;
+}
+
+.btn1 {
+background-color:#b00;
+padding:8px;
+border:0px solid grey;
+border-radius:3px;
+color:white;
+font-size :17px;
+width:24vw;
+}
+
+
+}
+
+
+

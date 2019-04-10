@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "index.css" >
+ 
+<script type="text/javascript" src= "jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src ="umbrella.min.js"></script>
+
+</head> 
+
+<body> 
+
+<div class ="jumia_wrap">
+ <img src ="jumia.jpg" class = "jumia_logo" alt ="jumia logo">
+ </div>
+
+
+ <div class="main_body" ><h1> Jumia Vendor <br> Claims Form</h1>
+ <p class="margin"> Dear Jumia Partner, <br> <br>
+  
+ Please use this form to raise any inquiries or claims related to your Jumia orders or payments.<br> <br>
+ Please make sure you properly fill out every required field with the exact details as well as the corresponding
+  comment for each reason for your claim. The more detailed your claim submission is, the less time will be required to resolve it.<br><br> 
+ Please also visit our Jumia Vendor Hub page for more information: 
+ <span><a href="https://vendorhub.jumia.com.ng/" >https://vendorhub.jumia.com.ng/</a></span> </p><br>
+ 
+ <h2>Seller Details</h2>
+ 
+  
+  <br>
+
+<div id = "form" class="inputText"> <form id = "form"  action = "goose.html" target = "_blank"><div class ="first_input"> <label for ="first_input">Store Name </label> <span class = "asterik">*</span> <br><input type = "text" required class = "display boxWidth" id ="first_input">
+<span class = "span">Name of your shop on Seller Center</span> </div><br><br> <div class ="second_input"> <label for ="second_input" >Seller Center Email Address </label> <span class="asterik">* </span> <br> <input type="email" required id = "second_input" class = "display boxWidth">
+<span class="span">The email address used to access your shop on seller center</span> </div><br><br><br>
+<div class ="third_input"> <label for ="third_input">Seller Name </label><span class="asterik">*</span> <input type ="text" required id ="third_input" class="display boxWidth">
+<span class="span">First Name</span> <br> <br> <input type ="text " id = "thirdd_input"class="display boxWidth" required>
+<span class="span"> Last Name</span></div><br><br>
+<div class ="fourth_input"><label for ="fourth_input">Phone Number </label> <span class="asterik">*</span> <br> <input type="number" required id ="fourth_input"class = "display boxWidth">
+<span class="span">Phone number associated with your shop on Seller Center</span>
+ <br><br> </div>
+
+<h2>Claim Type
+</h2> <br>
+<div class="fifth_input"> <label for ="fifth_input">Claim Type </label> <span class="asterik">*</span> <br>
+<select class ="display selboxWidth" required id = "fifth_input" style="background-color:#eee"><option class ="none"></option>
+<option id ="returnss">Returns</option> <option class = "dropoff">Drop-off-Pick-up</option>
+
+<option class ="payments" value="gghh">Payments and Penalties</option> <option class="packaging">Packaging Materials</option>
+ <option class="seller">Seller Center</option><option class ="commercial" >Commercial</option>
+ <option class="other">Other</option></select>
+ <span class="span">please select a claim category</span> </div> <br><br><br>
+ <br> 
+ 
+ 
+ <div id ="main_parent">
+ 
+ 
+ 
+ 
+ 
+ 
+<div class="parent1">
+   <h2> Returns </h2> <br> <br>
+ 
+   <div class ="parent1a">
+ 
+     <span style="font-weight:bold">Reason for drop-offs and returns claim</span> <span class ="asterik">*</span> <br> <br>
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class="other2"> I received a damaged return item </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class="other2"> I received a returned item with damaged packaging </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class ="other2"> I received an incorrect returned item  </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class="other2"> I received a used returned item </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class="other2"> Not all items were returned to me </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class ="other2"> I received an incomplete returned item </label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class = "other2"> I received a returned item with missing documentation </label></div><br><br>
+  
+   
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class = "other2"> I did not receive payment for an item which breached the 21 day vendor promise</label></div><br><br>
+  
+  
+     <div class ="return1" > <label> <input type="radio" required name ="returns" class = "other1"> Other </label></div><br><br>
+  
+  </div>
+ 
+  
+  <div class ="parent1b">
+  
+    <div class ="parent1c">
+      <div> <label> Order Number <span class ="asterik"> * </span> <br> <br><input type ="text" required class ="display boxWidth other3"> </label></div> <br> <br>
+  
+      <div> <label> Seller Centre Sku ID<span class ="asterik"> * </span> <br> <br><input type ="text" required class ="display boxWidth other3"> </label></div> <br> <br>
+    
+      <div> <label> Order Number <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+      
+      <div> <label> Seller Center Sku ID <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+        
+      <div> <label> Order Number  <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+          
+      <div> <label> Seller Center Sku ID <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+            
+      <div> <label> Order Number  <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+  
+      <div> <label> Seller Center Sku ID <br> <br><input type ="text" class ="display boxWidth"> </label></div> <br> <br>
+    </div>
+    <div> <label> Additional Comments  <br> <br><textarea type ="textarea" class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+ 
+   </div>
+  
+ </div>
+ 
+ 
+ 
+ 
+<div class="parent2">
+   <h2> Drop-off/Pick-up </h2> <br> <br>
+ 
+   <div class ="parent2a">
+ 
+     Reason for drop-offs and pick-ups claim <span class ="asterik">*</span> <br> <br>
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns"> My Order was picked up late</label></div><br><br>
+ 
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns"> My Order was not picked up </label></div><br><br>
+ 
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns"> I had an issue with the jumia express purchase order </label></div><br><br>
+ 
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns"> I had an issue with the inbound at the jumia warehouse</label></div><br><br>
+ 
+ 
+     <div class ="return1" > <label> <input type="radio" required name ="returns"> Other</label></div><br><br>
+ 
+  </div>
+  
+  <div class ="parent2b">
+  
+    <div class ="parent2c">
+      <div> <label> Order Number <span class ="asterik"> * </span> <br> <br><input type ="text"  required class ="display boxWidth"> </label></div> <br> <br>
+      <div> <label> Order Number <span class ="asterik"> * </span> <br> <br><input type ="text"  required class ="display boxWidth"> </label></div> <br> <br>
+      <div> <label> Order Number <span class ="asterik"> * </span> <br> <br><input type ="text"  required class ="display boxWidth"> </label></div> <br> <br>
+      <div> <label> Order Number <span class ="asterik"> * </span> <br> <br><input type ="text"  required class ="display boxWidth"> </label></div> <br> <br>
+    </div> 
+   
+    <p class = "RD1"> <b>Required Documents</b> <br>
+      please ensure that uploaded documents and photographs are
+     of high quality<br><br>
+     please do not upload a file with size greater than 3mb.
+    </p> <br> <br>
+   
+    <p class ="RD2"> Required Documents<br>
+      <div class = "btnDiv"> <div class = "btn1">Choose File </div> <span> No file chosen</span></div> <br>
+     
+      <span style ="font-size:15px; font-family:Times New Roman"> File uploads may not work on some mobile devices.</span>
+    </p> <br> <br>
+   
+   
+    <div> <label> Additional Comments  <br> <br><textarea type ="text"  class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+  
+  </div>
+
+</div>
+
+
+
+
+
+
+<div class="parent3">
+ <h2> Payments and Penalties </h2> <br> <br>
+
+ <div class ="parent3a">
+
+    Reason for payments claim <span class ="asterik">*</span> <br> <br>
+
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect commission deducted</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Return commission not reverted </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect statement payment </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Delayed statement payment</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect penalties applied </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect VAT calculated </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect shipping fee applied to my store </label></div><br><br>
+  
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Tax invoice validation</label></div><br><br>
+   
+   
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Tax invoice delayed payment</label></div><br><br>
+   
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Other </label></div><br><br>
+ 
+  </div> <br> <br>
+ 
+  <div> <label> Additional Comments  <br> <br><textarea type ="text"  class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+ 
+ </div>
+ 
+ 
+ 
+ 
+ 
+ <div class="parent4">
+   <h2> Packaging Materials </h2> <br> <br>
+ 
+   <div class ="parent4a">
+ 
+     Reason for packaging material claim <span class ="asterik">*</span> <br> <br>
+ 
+    <div class ="return1" > <label> <input type="radio"  required name ="returns"> Delay in PM delivery</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio"  required name ="returns"> PM not available on website </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio"  required name ="returns"> PM not available at the hub </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio"  required name ="returns"> PM order received incomplete</label></div><br><br> <br>
+ 
+   </div>
+   
+   <div> <label> Additional Comments  <br> <br><textarea type ="text"  class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+ 
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="parent5">
+   <h2> Seller Center </h2> <br> <br>
+ 
+   <div class ="parent5a">
+ 
+   Reason for Seller Center claim <span class ="asterik">*</span> <br> <br>
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Lost account credentials</label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> DOL and PSOL</label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Seller Center bug issues</label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Delay in system update</label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Delay in products QC approval </label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Technical issue delay </label></div><br><br>
+ 
+ 
+      <div class ="return1" > <label> <input type="radio" required name ="returns"> Other </label></div><br><br>
+
+   </div>
+ 
+   <div> <label> Additional Comments  <br> <br><textarea type ="text"  class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+ 
+</div>
+
+
+
+
+
+<div class="parent6">
+  <h2> Commercial</h2> <br> <br>
+
+  <div class ="parent6a">
+
+    Reason for commercial claim <span class ="asterik">*</span> <br> <br>
+
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Purchase order rejection/approval delay</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Wrong promotion SKU price update</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Delay in promotion approval </label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Incorrect seller score</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Reauest to close shop account</label></div><br><br>
+ 
+ 
+    <div class ="return1" > <label> <input type="radio" required name ="returns"> Other </label></div><br><br>
+ 
+  </div>
+ 
+  <div> <label> Additional Comments  <br> <br><textarea type ="text"  class ="display boxWidth2"> </textarea> </label></div> <br> <br>
+  
+</div>
+
+
+
+
+
+
+<div class="parent7">
+  <h2> Other</h2> <br> <br>
+  
+  <div> <label> Other Issue  <br> <br><textarea type ="text" required placeholder="enter additional comments" class ="display boxWidth2"></textarea> </label></div> <br>
+  
+  <span class="span" style ="font-family:Times New Roman"> please describe the other issue you are having and you will be contacted by Jumia shortly</span> <br> <br><br>
+ 
+ </div>
+
+</div>
+
+
+<input type = "reset" class = "display submitbtn" > <br>
+ <input type="submit" value ="Submit" class="submitbtn display"> <br><br><br>
+ 
+ 
+ </form></div> 
+ 
+
+
+ 
+ 
+ 
+ </div>
+
+
+
+ 
+ 
+ 
+ <script type="text/javascript" src = "index.js"></script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body></html>
+ 
